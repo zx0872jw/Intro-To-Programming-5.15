@@ -12,7 +12,7 @@ for i in range(arrow_base_height):
     i = arrow_base_width * '*'
     print(i)
 
- for d in range(arrow_head_width):
+for d in range(arrow_head_width):
      d = arrow_head_width * '*'
      print(d)
      arrow_head_width -= 1
