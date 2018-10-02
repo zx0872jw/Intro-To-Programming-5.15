@@ -5,8 +5,9 @@ arrow_base_width = int(input('Enter arrow base width:\n'))
 
 arrow_head_width = int(input('Enter arrow head width:\n'))
 
+while arrow_head_width <= arrow_base_width:
+    arrow_head_width = int(input('Enter arrow head width:\n'))
 print('')
-# Draw arrow base (height = 3, width = 2)
 for i in range(arrow_base_height):
     i = arrow_base_width * '*'
     print(i)
@@ -15,11 +16,3 @@ for i in range(arrow_base_height):
      d = arrow_head_width * '*'
      print(d)
      arrow_head_width -= 1
-     
-
-
-# Draw arrow head (width = 4)
-print ('****')
-print ('***')
-print ('**')
-print ('*')
